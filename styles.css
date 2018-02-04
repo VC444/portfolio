@@ -1,0 +1,52 @@
+#particles-js{
+    background-color: #020e1b;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#name{
+    color: white;
+    font-size: 50px;
+}
+
+.mainText{
+    position: absolute;
+    text-align: center;
+    margin-top: 15%;
+    width: 100%;line-height: 0.4cm;
+}
+
+li{
+    font-size: 20px;
+}
+
+#about{
+    background-image: url('https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-right: 250px;
+    color: black;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    border-radius: 25px;
+    border: 2px solid #505660;
+}
+
+#projects{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+#footer{
+    background-color: gray;
+    color: white;
+    margin-top: 750px
+}
