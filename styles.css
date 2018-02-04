@@ -32,21 +32,25 @@ li{
     padding-bottom: 25px;
     padding-left: 150px;
     padding-right: 150px;
-    font-size: 30px;
+    font-size: 28px;
     font-family: 'Indie Flower', cursive;
     border-radius: 25px;
     border: 2px solid #505660;
+    position: absolute;
 }
 
 #projects{
-    margin-left: 200px;
+    position: absolute;
     margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 40px;
+    text-align: center;
 }
 
+#me{
+    font-size: 20px;
+}
 
-
-#footer{
-    background-color: gray;
-    color: white;
-    margin-top: 750px
+#todo{
+    background-color: #425cf4;
 }

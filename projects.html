@@ -1,0 +1,101 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Vignesh Chandrasekharan</title>
+
+</head>
+
+<body>
+
+    <div id="particles-js">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="./index.html">Vignesh</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://drive.google.com/file/d/1uI5qTRePtmndgJ56uOmxMDAu9FZ_tXcD/view?usp=sharing">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+
+        <div id="projects">
+
+            <div id="topCards" class="card-deck row">
+                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header"> React.js, Youtube Data API</div>
+                    <div class="card-body">
+                        <h5 class="card-title">React-Tube</h5>
+                        <p class="card-text">Developed a fully functioning YouTube clone from scratch using React JS and the YouTube Data API.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Alexa Skills Kit</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Alexa Skill Competition</h5>
+                        <p class="card-text">
+                            Won the Summer 2017 Amazon Alexa Skill Competition by building two Alexa skills for the Amazon Echo Series (Ron Swanson Quotes
+                            & Fun Me). Has reached more than 500 users total and increasing every day.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Vanilla JS, Open Source</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Room Sprawl</h5>
+                        <p class="card-text">
+                            Contributed to an open source browser game that consists of many rooms that the player must discover. I created a new room
+                            for the user to explore.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="bottomCards" class="card-deck row">
+                <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Amazon Lex, DynamoDB,
+                        <br> AWS Lambda</div>
+                    <div class="card-body">
+                        <h5 class="card-title">ScheduleTime</h5>
+                        <p class="card-text">Created a bot to keep track of exams and homeworks. Fully managed in the cloud.</p>
+                    </div>
+                </div>
+                <div id="todo" class="card text-white mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Ionic, Angular, Google Firebase</div>
+                    <div class="card-body">
+                        <h5 class="card-title">To-Do List</h5>
+                        <p class="card-text">Developed a cross-platform to-do list app using Firebase Realtime Database to store and retrieve
+                            items.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <script>/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+        particlesJS.load('particles-js', 'particles.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
+</body>
