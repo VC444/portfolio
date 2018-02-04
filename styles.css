@@ -48,13 +48,12 @@ li{
 }
 
 #me{
-    font-size: 20px;
     border-right: 3px solid rgb(30, 58, 99);
     border-radius: 25px;
 }
 
 #todo{
-    background-color: #425cf4;
+    background-color: #191f41;
 }
 
 #project-header{
