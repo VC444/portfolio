@@ -63,3 +63,116 @@ li{
     width: 100%;
     line-height: 0.4cm;
 }
+
+#abt{
+    font-family: 'Patua One', cursive; 
+    font-size: 40px; 
+    color: #216d1a;
+    margin-top: 50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+#joke{
+    background-color: gray;
+    font-size: 25px;
+    color: white;
+    font-family: 'Crimson Text', serif;
+}
+
+#innerJoke{
+    margin-top: 120px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.project-image{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+#projectsss{
+    margin-top: 75px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+  #project-1:hover .overlay {
+    opacity: 1;
+  }
+
+  #project-2:hover .overlay {
+    opacity: 1;
+  }
+
+  #project-3:hover .overlay {
+    opacity: 1;
+  }
+
+  #project-4:hover .overlay {
+    opacity: 1;
+  }
+
+  #project-5:hover .overlay {
+    opacity: 1;
+  }
+
+  #project-6:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .footer{
+    background-color: #2d323a;
+    color: white;
+    font-size: 20px;
+    height: 100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 80px;
+  }
+
+  .fa {
+    font-size: 40px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .padding-0{
+    padding-right:0;
+    padding-left:0;
+  }
+
+  .padding-01{
+    padding-right:0;
+    padding-left:0;
+    margin-top: 120px;
+  }
