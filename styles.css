@@ -7,7 +7,7 @@
 
 #name{
     color: white;
-    font-size: 50px;
+    font-size: 10vmin;
 }
 
 .mainText{
@@ -66,13 +66,12 @@ li{
 
 #abt{
     font-family: 'Patua One', cursive; 
-    font-size: 40px; 
     color: #216d1a;
+    font-size: 5vmin;
     margin-top: 50px;
-    display:flex;
     justify-content:center;
     align-items:center;
-
+    display: flex;
 }
 
 #joke{
