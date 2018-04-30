@@ -111,27 +111,7 @@ li{
     background-color: #008CBA;
   }
 
-  #project-1:hover .overlay {
-    opacity: 1;
-  }
-
-  #project-2:hover .overlay {
-    opacity: 1;
-  }
-
-  #project-3:hover .overlay {
-    opacity: 1;
-  }
-
-  #project-4:hover .overlay {
-    opacity: 1;
-  }
-
-  #project-5:hover .overlay {
-    opacity: 1;
-  }
-
-  #project-6:hover .overlay {
+  .project-block:hover .overlay {
     opacity: 1;
   }
 
