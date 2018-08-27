@@ -40,8 +40,8 @@ li{
 }
 
 #joke{
-    background: rgb(30,25,27);
-    background: linear-gradient(90deg, rgba(30,25,27,1) 0%, rgba(104,116,137,1) 100%);
+    background: rgb(108,104,90);
+    background: linear-gradient(90deg, rgba(108,104,90,1) 0%, rgba(91,80,60,1) 100%);
     font-size: 25px;
     color: white;
     font-family: 'Crimson Text', serif;
