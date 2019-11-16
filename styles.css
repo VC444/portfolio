@@ -141,3 +141,14 @@ li{
     align-items:center;
     display: flex;
   }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #particles-js{
+      background-color: #020e1b;
+      background-size: cover;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      height: 50%;
+    }  
+  }
