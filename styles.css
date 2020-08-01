@@ -125,6 +125,11 @@ li{
       margin-bottom: 100px;
   }
 
+  .padding-sides {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
   .project-title {
       font-size: 4.9vmin;
   }
